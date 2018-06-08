@@ -7,6 +7,12 @@ var Users = mongoose.model('Users',{
         required: true,
         trim: true,
         minlenght:1
+    },
+    password:{
+        type: String,
+        required: true,
+        trim: true,
+        minlenght:1
     }
 });
 
